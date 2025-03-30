@@ -28,6 +28,13 @@
   flex:1;
 }
 
+.itemreel {
+  flex:1;
+  align-self: flex-end;
+  height: 300px;
+  width: 250px;
+}
+
 .item3 {
     background: #0d83a7;
   flex:0;
@@ -149,7 +156,7 @@
 
 .container4 {
   background: white;
-  height: 500px;
+  height: auto;
   width: 900px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black;
@@ -167,10 +174,34 @@
   background-color: black;
   flex:1;
   align-self: flex-end;
-  margin: 0px 0px 10px -400px;
+  margin: 20px 0px 0px 0px;
   border: 5px solid black;
   border-radius: 20px;
   padding: 5px 10px 0px 10px ;
+}
+
+.item41a {
+  color: black;
+  background-color:#0d83a7 ;
+  flex:1;
+  align-self: flex-start;
+  margin: 0px 0px -1px 60px;
+  border: 5px solid black;
+  border-radius: 20px;
+  padding: 5px 10px 0px 10px ;
+  max-width: 350px;
+}
+
+.item41b {
+  color:#0d83a7;
+  background-color: black;
+  flex:1;
+  align-self: flex-start;
+  margin: -1px 0px -390px 15px;
+  border: 5px solid black;
+  border-radius: 20px;
+  padding: 5px 10px 0px 10px ;
+  max-width: 350px;
 }
 
 .item411 {
@@ -184,12 +215,12 @@
 }
 
 .photo4 {
-  margin: -40px 0px -100px 500px;
+  margin: ;
   width: 400px;
   height: 300px;
   flex: 1;
   align-content: center;
-  align-self: flex-end;
+  align-self: flex-start;
   border-radius: 50%;
 }
 
@@ -199,7 +230,7 @@
   width: auto;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black; 
-  margin: 200px 0px 0px 0px;
+  margin: 50px 0px 0px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;

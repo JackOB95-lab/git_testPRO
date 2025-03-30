@@ -1,0 +1,269 @@
+.container {
+    background: black;
+    font-style: hero and footer;
+    color: white;
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px 10px 0px 0px;
+    border: 5px solid #54419b;
+  }
+
+  
+  .item1 {
+    margin: 15px -10px 0px -15px;
+    background:  black;
+    flex:2;
+    font-size: x-large;
+  }
+  
+  .item1.0 {
+      background: black;
+      flex:1;
+      font-size: large;
+    }
+  
+  .item2 {
+    background:  black;
+    flex:1;
+  }
+  
+  .itemreel {
+    flex:1;
+    align-self: flex-end;
+    height: 300px;
+    width: 250px;
+  }
+  
+  .item3 {
+      background: white;
+    flex:0;
+  }
+  
+  .container2 {
+      background: black;
+      font-style: hero;
+      color: white;
+      padding: 0px 50px 50px 50px;
+      margin: 0px 0px 0px 0px;
+      display: flex;
+      flex-direction: column;
+      border-radius: 0px 0px 10px 10px;
+    }
+  
+    .photo {
+      margin: -580px 80px 100px 10px;
+      width: 500px;
+      height: 300px;
+      flex: 1;
+      align-content: center;
+      align-self: flex-end;
+      border-radius: 50%;
+  }
+  
+  .empty {
+      flex: 0 1 250px;
+      align-self: flex-start;
+  }
+  
+  .empty2 {
+      flex: 1 1 250px;
+      align-self: flex-end;
+      padding: 200px;
+  }
+  
+    .item21 {
+      background: black;
+      flex:1 1 auto;
+      width: 150px;
+      font-size: 60%;
+      margin: -200px 0px 0px 200px;
+    }
+    
+    .item22 {
+      background: black;
+      color: #FBD989;
+      flex:1 1 auto;
+      width: 280px;
+      font-size: 40%;
+      margin: 0px 0px 0px 200px
+  
+    }
+  
+    button {
+      color: white;
+      font-weight: 800;
+      background: orange;
+      border: solid orange ;
+      flex: 1 1 auto;
+      display:flex;
+      flex-wrap: wrap;
+      border-radius: 15px;
+      margin: 0px 0px 50px 200px;
+      padding: 3px 5px 5px 8px;
+      
+  
+  }
+  
+    .button1 {
+      color: gold;
+      font-weight: 800;
+      background: #54419b;
+      border: 2px solid black ;
+      flex: 1 1 auto;
+      display:flex;
+      flex-wrap: wrap;
+      width: 180px;
+      height: 25px ;
+      border-radius: 12px;
+      margin: 10px -20px 20px 180px;
+      padding: 2px 0px 25px 8px;
+      
+  
+  }
+  
+  .container3 {
+      background: black;
+      height: 120px;
+      font-style: hero;
+      color: #5c82eb;
+      padding: 30px;
+      border-radius: 20px; 
+      margin: 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .item31 {
+      flex:1;
+      margin: -80px 0px 100px 24px;
+    }
+  
+    .item32 {
+      flex:1
+    }
+  
+    .photo2 {
+      margin: 0px 50px 50px 130px;
+      width: 450px;
+      height: 300px;
+      flex: 1;
+      align-content: center;
+      border-radius: 50%;
+  }
+  
+  .container4 {
+    background: white;
+    height: auto;
+    width: 900px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    padding: 30px;
+    border: #54419b solid 4px;
+    border-radius: 20px; 
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .item41 {
+    color: white;
+    background-color: black;
+    flex:1;
+    align-self: flex-end;
+    margin: 5px;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 5px 10px 0px 10px ;
+  }
+  
+  .item41a {
+    color: white;
+    background-color: #54419b ;
+    flex:1;
+    align-self: flex-start;
+    margin: -20px 0px 0px 60px;
+    border-radius: 20px;
+    padding: 0px 10px 0px 10px ;
+    max-width: 350px;
+  }
+  
+  .item41b {
+    color: white ;
+    background-color: #54419b;
+    flex:1;
+    align-self: flex-start;
+    margin: -1px 0px -400px 15px;
+    border-radius: 20px;
+    padding: 5px 10px 0px 10px ;
+    max-width: 350px;
+  }
+  
+  .item411 {
+    color: white;
+    background-color: black;
+    flex:1;
+    margin: 0px 0px 0px 0px;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 5px 10px 0px 10px ;
+  }
+  
+  .photo4 {
+    margin: 10px 0px 10px 0px  ;
+    max-width: 400px;
+    max-height: 400px;
+    flex: 1;
+    align-content: center;
+    align-self: flex-start;
+    border-radius: 50%;
+  }
+  
+  .container5 {
+    background: darkred;
+    height: 30px;
+    width: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black; 
+    margin: 50px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .item51 {
+    color: white;
+    background-color: darkred;
+    flex:1;
+    margin: 5px 0px 0px 0px;
+    border-radius: 20px;
+  }
+
+  .container6 {
+    background: darkred;
+    height: 500px;
+    width: 1200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black; 
+    margin: 20px 0px 0px 80px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item61 {
+    background: white;
+    color: black;
+    margin: 20px;
+    flex: 1;
+  }
+
+  .item62 {
+    background: white;
+    color: black;
+    margin: 20px;
+    flex: 1;
+  }
