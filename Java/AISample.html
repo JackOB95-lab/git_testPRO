@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roulette Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: auto;
+            max-width: 400px;
+        }
+        input {
+            margin: 10px 0;
+            padding: 10px;
+            width: calc(100% - 22px);
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #218838;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Roulette Game</h1>
+        <input type="number" id="credit" placeholder="Enter your credit" />
+        <input type="number" id="bet" placeholder="Enter your bet amount" />
+        <input type="text" id="betOptions" placeholder="Enter bets (e.g., red, 32, odd, even)" />
+        <button onclick="playRoulette()">Spin the Wheel!</button>
+        <div class="result" id="result"></div>
+        <button onclick="resetGame()">Play Again</button>
+    </div>
+
+    <script>
+        function playRoulette() {
+            const credit = parseInt(document.getElementById('credit').value);
+            const bet = parseInt(document.getElementById('bet').value);
+            const betOptions = document.getElementById('betOptions').value.split(',').map(option => option.trim());
+            const winningNumber = Math.floor(Math.random() * 37); // 0-36
+            const winningColor = (winningNumber % 2 === 0) ? 'red' : 'black'; // Simplified for demonstration
+            
+            let resultText = `Winning Number: ${winningNumber} (${winningColor})`;
+
+            if (betOptions.includes(winningNumber.toString()) || betOptions.includes(winningColor)) {
+                resultText += "<br>You win!";
+            } else {
+                resultText += "<br>You lose!";
+            }
+
+            document.getElementById('result').innerHTML = resultText;
+        }
+
+        function resetGame() {
+            document.getElementById('credit').value = '';
+            document.getElementById('bet').value = '';
+            document.getElementById('betOptions').value = '';
+            document.getElementById('result').innerHTML = '';
+        }
+    </script>
+</body>
+</html>
