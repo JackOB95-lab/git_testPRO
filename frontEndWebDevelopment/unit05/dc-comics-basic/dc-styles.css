@@ -53,6 +53,12 @@ h4{
     color: black;
   }
 
+  .container2 p:hover {
+    background-color: white;
+    color: black;
+
+  }
+
   .item2{
     flex: 1;
     background-color: white;
@@ -87,6 +93,7 @@ h4{
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+
   .container3{
     display: flex;
     flex-direction: row;
