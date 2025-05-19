@@ -1,0 +1,110 @@
+* {
+    font-family: "Marvel";
+}
+
+.container {
+    background: #00467c;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px 10px 0px 0px ;
+
+  }
+
+  .container a {
+    font-size: xx-large;
+  }
+
+a{
+    font-family: "Marvel";
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+}
+
+a:hover{
+background-color: white;
+color: #00467c;
+border-radius: 10px;
+}
+
+h4{
+    text-align: center;
+}
+
+  .item1 {
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+  }
+ 
+  img { display: block; margin: auto; border-radius: 0px;}
+
+  .container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    ;
+  }
+
+  .container2 p {
+    background-color: white;
+    color: black;
+  }
+
+  .item2{
+    flex: 1;
+    background-color: white;
+    margin: 10px;
+  }
+
+  .item2 :hover {
+    border-radius: 10px;
+    background-color: white;
+    color:#00467c;
+  }
+
+  .item21{
+    font-size:xx-large;
+    background-color: #00467c;
+    color: white;
+    padding-bottom: 1px;
+    border-radius: 10px;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .container3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height: 700px;
+  }
+
+  .item3{
+    flex: 1;
+    margin: 30px;
+  }
+
+  .container4{
+    text-align: center;
+    background-color:#00467c;
+    color: white;
+    font-size: large;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+  }
